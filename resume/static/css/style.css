@@ -191,9 +191,9 @@ progress::-moz-progress-value {
     margin: 0 auto;
     margin-top:20px;
     margin-bottom: 10px;
-    background-image:url('https://github.com/cohaesio/cohaesio.github.io/blob/master/resume/static/image/portrait.png');
+    background-image:url('../static/image/portrait.png');
     background-size: 120%;
-    background-position:center;
+    background-position:left;
     border-radius:50%;
     border:5px solid #607d8b;
     width:160px;

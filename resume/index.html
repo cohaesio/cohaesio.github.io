@@ -16,7 +16,9 @@
     <div class="container" id="cv">
         <div class="side">
             <div class="me">
-                <div class="portrait"></div>
+                <div class="wechat">
+                  <img src="static/image/portrait.png" alt="">
+                </div>
                 <h1 id="username" >张明睿</h1>
                 <h4 id="persona-tag" >计算机视觉 / 脑机接口 / 机器学习</h4>
             </div>
@@ -53,32 +55,35 @@
                 <hr>
                 <ul class="progress-list">
                     <li>
-                        <label class="left-label">Python</label>
+                        <label class="left-label">C/C++</label>
                         <progress value="80" max="100"></progress>
                     </li>
                     <li>
-                        <label class="left-label">C/C++</label>
+                        <label class="left-label">Python</label>
                         <progress value="70" max="100"></progress>
                     </li>
                     <li>
-                        <label class="left-label">html/css/Javascript</label>
+                        <label class="left-label">Matlab</label>
                         <progress value="60" max="100"></progress>
                     </li>
                     <li>
-                        <label class="left-label">机器学习</label>
-                        <progress value="60" max="100"></progress>
+                        <label class="left-label">SQL</label>
+                        <progress value="80" max="100"></progress>
                     </li>
                 </ul>
             </div>
             <div class="stack info-unit">
-                <h2 class="info-header"><i class="iconfont icon-build"></i> <span class="info-title">技术栈</span></h2>
+                <h2 class="info-header"><i class="iconfont icon-build"></i> <span class="info-title">专业基础</span></h2>
                 <hr>
                 <ul class="stack-list">
                     <li>
-                        <label class="left-label">前端</label><span class="label-value">jQuery、Angular.js、React.js</span></li>
+                        <label class="left-label">数学</label><span class="label-value">高等数学上95,高等数学下93,高等解题方法94,概率论与数理统计90</span></li>
                     </li>
                     <li>
-                        <label class="left-label">后端</label><span class="label-value">Flask、Django、Twisted、Node.js、MongoDB、MySQL、Redis</span></li>
+                        <label class="left-label">英语</label><span class="label-value">大学英语90，GMIC翻译志愿者</span></li>
+                    </li>
+                    <li>
+                        <label class="left-label">算法</label><span class="label-value">数据结构93,算法设计90,面向对象设计98</span></li>
                     </li>
                 </ul>
             </div>
@@ -89,12 +94,6 @@
                 <div class="weixin">
                     <img src="static/image/wechat.png" alt="">
                 </div>
-            </div>
-            <div class="remodal remodal-img" data-remodal-id="weixin-modal">
-                <h3>请输入图片URL地址：</h3>
-                <br/>
-                <input type="text" id="weixin-url">
-                <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
             </div>
         </div>
         <div class="main">
@@ -136,10 +135,8 @@
                 <hr>
                 <ul class="experience-list">
                     <li>
-                        <h3>基于脉冲神经网络的手绘图片检索分类</h3>
-                        <p align="right">
-                            北京大学数字视频编解码技术国家工程实验室
-                        </p>
+                        <h3>基于脉冲神经网络的手绘图片检索分类 </h3>
+                        <h4>北京大学数字视频编解码技术国家工程实验室</h4>
                         <p>
                           * 对手绘数据集进行网络架构、学习方法、编码模型等方向的实验；
                         </p>
@@ -149,9 +146,7 @@
                     </li>
                     <li>
                         <h3>RSNA肺炎检测</h3>
-                        <p align="right">
-                            Kaggle
-                        </p>
+                          <h4>Kaggle</h4>
                         <p>
                           * 学习 Mask RCNN、RetinaNet 等目标检测模型并对网络训练调优
                         </p>
@@ -161,21 +156,17 @@
                     </li>
                     <li>
                         <h3>基于脉冲神经网络的心率预测</h3>
-                        <p align="right">
-                          中国科学院计算机网络信息中心
-                        </p>
+                        <h4>中国科学院计算机网络信息中心</h4>
                         <p>
                           * 了解脉冲神经网络的结构和模拟器实现原理
                         </p>
                         <p>
-                          * 利用脉冲神经网络模拟器 CARLsim 实现液态机模型，从编码好的心跳脉冲序列中提取特征序列并输出到分类模型进行预测。
+                          * 利用脉冲神经网络模拟器 CARLsim 实现液态机模型，从编码好的心跳脉冲序列中提取特征序列并输出到分类模型进行预测，成功参与国际大学生类脑计算比赛
                         </p>
                     </li>
                     <li>
                         <h3>数字视网膜仿真</h3>
-                        <p align="right">
-                          北京大学数字视频编解码技术国家工程实验室
-                        </p>
+                        <h4>北京大学数字视频编解码技术国家工程实验室</h4>
                         <p>
                           * 熟悉灵长类视网膜生物结构，利用非负矩阵分解结合深度学习模型对视网膜层次结构进行模拟
                         </p>
@@ -185,9 +176,7 @@
                     </li>
                     <li>
                         <h3>“人工智能与大数据”暑期学校项目</h3>
-                        <p align="right">
-                          Sidney Sussex College, Cambridge University(剑桥大学悉尼·苏塞克斯学院)
-                        </p>
+                        <h4>Sidney Sussex College, Cambridge University(剑桥大学悉尼·苏塞克斯学院)</h4>
                         <p>* 参加“认知科学与人工智能”、“Facebook用户个性分析”等课程；</p>
                         <p>* 调研了NHS最新AI诊疗系统, 医疗影像发展应用等；</p>
                         <p>* 进行关于”AI在医疗诊疗领域应用”的主题演讲答辩。</p>
@@ -199,10 +188,15 @@
                 <hr>
                 <ul class="experience-list">
                     <li>
-                        <h3>钢琴十级</h3>
+                        <h3>个人爱好：音乐(钢琴十级),运动(国际象棋，沙滩排球，羽毛球)，书法</h3>
                     </li>
                     <li>
-                      <h3>骑行，国际象棋，排球，书法</h3>
+                      <h3>学生工作：组织北邮第二届人工智能论坛，作为大班学委组织学院“学霸讲堂”活动等</h3>
+                    </li>
+                    <li>
+                      <h3>
+                        社会工作：志愿时长70h；参与GDG线下，MSRA annual meeting等科技活动
+                      </h3>
                     </li>
             </div>
         </div>
