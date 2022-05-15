@@ -1,10 +1,10 @@
 # Site settings
-title: My Blog
-SEOTitle: 我的博客 | My Blog
+title: Mingrui's Blog
+SEOTitle: Mingrui's Blog | 我的博客
 header-img: img/post-bg.jpg
 email: mrzhang1515@gmail.com
 description: "headspace"
-keyword: "我的博客"
+keyword: "Mingrui's Blog"
 url: "http://cohaesio.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/cohaesio/cohaesio.github.io.git" # you code repository
