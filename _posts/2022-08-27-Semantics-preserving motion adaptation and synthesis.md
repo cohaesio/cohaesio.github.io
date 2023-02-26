@@ -18,11 +18,9 @@ tags:
 
 ## Introduction
 
-This study is focused on exploring the "semantics" of human motion with the aim of enabling it to generalize to new scenes. In computer graphics, 3D scenes are frequently reconstructed without human presence, making it a challenging task to synthesize realistic people in scenes, as well as recover humans in scenes. Automation of human motion interaction (HSI) can significantly reduce animation costs and create new possibilities in the AR industry.
+This study is focused on exploring the "semantics" of human motion with the aim of enabling it to generalize to new scenes. In computer graphics, 3D scenes are frequently reconstructed without human presence, making it a challenging task to synthesize realistic people in scenes, as well as recover humans in scenes. Automation of **human motion interaction (HSI)** can significantly reduce animation costs and create new possibilities in the AR industry. For instance, in a scenario where a human sits down on a chair, the character must automatically adjust its motion to accommodate the smaller chair. 
 
-For instance, in a scenario where a human sits down on a chair, the character must automatically adjust its motion to accommodate the smaller chair. By studying the semantics of human motion, we can synthesize complex motions based on multiple simple motions. For instance, we could synthesize a human holding handrails while shrugging using three simple motions, such as standing, shrugging, and leaning. This is particularly useful because complex motions can be difficult or hazardous to capture, whereas simple motions can be easily obtained online.
-
-Our approach has the potential to enable the spatial composition of high-quality human motion outcomes and significantly reduce the cost of motion capture. The method has been applied into one [intelligent VTuber product](https://ai.kuaishou.com/technology/Solution/VirtualLive) by Kwai Technology.
+By studying the semantics of human motion, we can synthesize complex motions based on multiple simple motions. For instance, we could synthesize a human holding handrails while shrugging using three simple motions, such as standing, shrugging, and leaning. This is particularly useful because complex motions can be difficult to capture, whereas simple motions can be easily obtained online. Motion parameterization and synthesis has the potential to enable the spatial composition of high-quality human motion outcomes and significantly reduce the cost of motion capture. 
 
 | HSI examples. People Sitting on different sized chairs. | Examples of motion synthesis.(Standing Shrugging->Holding handrails Shrugging) |
 | ------------------------------------------------------- | ------------------------------------------------------------ |
@@ -67,7 +65,7 @@ Our approach has the potential to enable the spatial composition of high-quality
 
 #### Different Character, Same Environment
 
-**V-Tuber** **in** **live** **room.**
+**Example**: **V-Tuber** **in** **a** **live** **room.** (The method has been applied into one [intelligent VTuber product](https://ai.kuaishou.com/technology/Solution/VirtualLive) by Kwai Technology.)
 
 | Sample | Input Data                                                  | Naive Results                                                | Optimized Results                                            |
 | ------ | ----------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
