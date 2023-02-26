@@ -2,7 +2,7 @@
 layout:     post
 title:      Automatic Photo Collage
 subtitle:   Aesthetic Photo Collage with Deep Reinforcement Learning
-date:       2022-03-21
+date:       2022-03-27
 author:     Mingrui Zhang
 header-img: img/col-banner.png
 catalog: true
