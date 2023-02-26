@@ -56,16 +56,16 @@ Our approach has the potential to enable the spatial composition of high-quality
 
 
 
-### Same Character, Different Environment
+#### Same Character, Different Environment
 
-| Examples                                                     |
+| Examples (Click to view)                                     |
 | ------------------------------------------------------------ |
 | [**Exiting** **Car.** **Source** **motion** **in** **green** **and** **adapted** **motion** **in** **red.**](https://www.youtube.com/watch?v=ChwtiJH_kxs) |
 | [**Typing.** **Source** **motion** **(left)** **and** **adapted** **motion** **(right).**](https://www.youtube.com/watch?v=-h9FlnuqqTI) |
 
 
 
-### Different Character, Same Environment
+#### Different Character, Same Environment
 
 **V-Tuber** **in** **live** **room.**
 
