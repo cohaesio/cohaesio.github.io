@@ -18,7 +18,7 @@ tags:
 
 ## Introduction
 
-Photo collage is a technique that automatically arranges multiple photos on a given canvas. It has a wide range of applications, including advertising and photo summarization. However, achieving high aesthetic quality in a scalable and flexible manner can be a challenging task. In light of this, we propose a novel pipeline for the automatic generation of collages on a specified aspect ratio canvas. Our method is capable of processing both video and image collections as input.
+Photo collage is a technique that automatically arranges multiple photos on a given canvas. It has a wide range of applications, including advertising and photo summarization. However, achieving high aesthetic quality in a scalable and flexible manner can be a challenging task. In light of this, we propose a novel pipeline for the automatic generation of collages on a specified aspect ratio canvas. Our method is capable of processing both video and image collections as input. The manuscript can be accessed from [here](https://ieeexplore.ieee.org/document/9787805).
 
 ![](img/col-i1.png)
 

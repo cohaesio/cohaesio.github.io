@@ -22,7 +22,7 @@ This study is focused on exploring the "semantics" of human motion with the aim 
 
 For instance, in a scenario where a human sits down on a chair, the character must automatically adjust its motion to accommodate the smaller chair. By studying the semantics of human motion, we can synthesize complex motions based on multiple simple motions. For instance, we could synthesize a human holding handrails while shrugging using three simple motions, such as standing, shrugging, and leaning. This is particularly useful because complex motions can be difficult or hazardous to capture, whereas simple motions can be easily obtained online.
 
-Our approach has the potential to enable the spatial composition of high-quality human motion outcomes and significantly reduce the cost of motion capture.
+Our approach has the potential to enable the spatial composition of high-quality human motion outcomes and significantly reduce the cost of motion capture. The method has been applied into one [intelligent VTuber product](https://ai.kuaishou.com/technology/Solution/VirtualLive) by Kwai Technology.
 
 | HSI examples. People Sitting on different sized chairs. | Examples of motion synthesis.(Standing Shrugging->Holding handrails Shrugging) |
 | ------------------------------------------------------- | ------------------------------------------------------------ |
