@@ -4,7 +4,7 @@ title:      Semantics-preserving motion adaptation and synthesis
 subtitle:   3D human scene interaction (HSI); motion parameterization and human motion synthesis
 date:       2022-08-27
 author:     Mingrui Zhang
-header-img: img/ani-banner.JPEG
+header-img: img/ani-banner.png
 catalog: true
 tags:
     - Computer Animation
