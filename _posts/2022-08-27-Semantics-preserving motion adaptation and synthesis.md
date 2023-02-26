@@ -26,17 +26,17 @@ Our approach has the potential to enable the spatial composition of high-quality
 
 | HSI examples. People Sitting on different sized chairs. | Examples of motion synthesis.(Standing Shrugging->Holding handrails Shrugging) |
 | ------------------------------------------------------- | ------------------------------------------------------------ |
-| ![HSI examples](../img/ani-i1.png)                      | ![examples](../img/ani-i2.png)                               |
+| ![HSI examples](img/ani-i1.png)                         | ![examples](img/ani-i2.png)                                  |
 
 
 
 ## Related Works
 
-| **Category**                                 | Description                                                  | Figure                       | Limitations                                                  |
-| -------------------------------------------- | ------------------------------------------------------------ | ---------------------------- | ------------------------------------------------------------ |
-| Constraint-based motion synthesis            | motion retargeting of dancing interactions based on positional constraint[2], avoid penetrations by using inequality constraints or a combination of collision detections and equality constraints [3, 4] | ![examples](/img/ani-r1.png) | **Constraint** **based** **methods.**                        |
-| Character animation by spatial relationships | 1. encoding neighborhood formations and individual trajectories as Laplacian coordinates[6]. | ![examples](/img/ani-r2.png) | Unable to represent implicit spatial relationship.**Skeleton-based** **methods.** Unsuitable for capturing skin-level spatial relationships. |
-|                                              | 2. Optimize the interaction mesh with pruning and normalization [7, 8] | ![examples](/img/ani-r3.png) | Unable to handle motion retargeting between different sized characters. |
+| **Category**                                 | Description                                                  | Figure                      | Limitations                                                  |
+| -------------------------------------------- | ------------------------------------------------------------ | --------------------------- | ------------------------------------------------------------ |
+| Constraint-based motion synthesis            | motion retargeting of dancing interactions based on positional constraint[2], avoid penetrations by using inequality constraints or a combination of collision detections and equality constraints [3, 4] | ![examples](img/ani-r1.png) | **Constraint** **based** **methods.**                        |
+| Character animation by spatial relationships | 1. encoding neighborhood formations and individual trajectories as Laplacian coordinates[6]. | ![examples](img/ani-r2.png) | Unable to represent implicit spatial relationship.**Skeleton-based** **methods.** Unsuitable for capturing skin-level spatial relationships. |
+|                                              | 2. Optimize the interaction mesh with pruning and normalization [7, 8] | ![examples](img/ani-r3.png) | Unable to handle motion retargeting between different sized characters. |
 
 
 
@@ -46,11 +46,11 @@ Our approach has the potential to enable the spatial composition of high-quality
 -  New representations of implicit spatial relationship
 -  Enable characters to adapt to new scenes without additional training data
 
-![examples](../img/ani-o1.png)
+![examples](img/ani-o1.png)
 
 
 
-![examples](../img/ani-m0.png)
+![examples](img/ani-m0.png)
 
 ## Experiments
 
