@@ -1089,3 +1089,40 @@ img::-moz-selection {
 .page-fullscreen footer .copyright a:hover {
   color: #ddd;
 }
+
+.video-links {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.video-links h2 {
+    color: #333;
+    font-size: 24px;
+}
+
+.video-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.video-links li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.video-links a {
+    text-decoration: none;
+    color: #0077cc;
+    font-weight: bold;
+}
+
+.video-links a:hover {
+    color: #0056a3;
+    text-decoration: underline;
+}ß

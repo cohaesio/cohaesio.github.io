@@ -18,9 +18,9 @@ tags:
 
 ## Introduction
 
-This study is focused on exploring the "semantics" of human motion with the aim of enabling it to generalize to new scenes. In computer graphics, 3D scenes are frequently reconstructed without human presence, making it a challenging task to synthesize realistic people in scenes, as well as recover humans in scenes. Automation of **human motion interaction (HSI)** can significantly reduce animation costs and create new possibilities in the AR industry. For instance, in a scenario where a human sits down on a chair, the character must automatically adjust its motion to accommodate the smaller chair. 
+This study is focused on exploring the "semantics" of human motion with the aim of enabling it to generalize to new scenes. In computer graphics, 3D scenes are frequently reconstructed without human presence, making it a challenging task to synthesize realistic people in scenes, as well as recover humans in scenes. Automation of **human motion interaction (HSI)** can significantly reduce animation costs and create new possibilities in the AR industry. For instance, in a scenario where a human sits down on a chair, the character must automatically adjust its motion to accommodate the smaller chair.
 
-By studying the semantics of human motion, we can synthesize complex motions based on multiple simple motions. For instance, we could synthesize a human holding handrails while shrugging using three simple motions, such as standing, shrugging, and leaning. This is particularly useful because complex motions can be difficult to capture, whereas simple motions can be easily obtained online. Motion parameterization and synthesis has the potential to enable the spatial composition of high-quality human motion outcomes and significantly reduce the cost of motion capture. 
+By studying the semantics of human motion, we can synthesize complex motions based on multiple simple motions. For instance, we could synthesize a human holding handrails while shrugging using three simple motions, such as standing, shrugging, and leaning. This is particularly useful because complex motions can be difficult to capture, whereas simple motions can be easily obtained online. Motion parameterization and synthesis has the potential to enable the spatial composition of high-quality human motion outcomes and significantly reduce the cost of motion capture.
 
 <table>
   <tr>
@@ -79,30 +79,70 @@ By studying the semantics of human motion, we can synthesize complex motions bas
 -  New representations of implicit spatial relationship
 -  Enable characters to adapt to new scenes without additional training data
 
-![examples](img/ani-o1.png)
+<img src="img/ani-o1.png" alt="examples" style="width: 20%;">
 
 
-
-![examples](img/ani-m0.png)
+<img src="img/ani-m0.png" alt="examples" style="width: 80%;">
 
 ## Experiments
 
 
+<div class="video-links">
+    <h2>Same Character, Different Environment</h2>
+    <ul>
+        <li>
 
-#### Same Character, Different Environment
+                <strong>Exiting Car.</strong> Source motion in green and adapted motion in red.
+                <iframe width="373" height="210" src="https://www.youtube.com/embed/ChwtiJH_kxs?si=SHWOvM7wE5SL0smb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </li>
+        <li>
 
-| Examples (Click to view)                                     |
-| ------------------------------------------------------------ |
-| [**Exiting** **Car.** **Source** **motion** **in** **green** **and** **adapted** **motion** **in** **red.**](https://www.youtube.com/watch?v=ChwtiJH_kxs) |
-| [**Typing.** **Source** **motion** **(left)** **and** **adapted** **motion** **(right).**](https://www.youtube.com/watch?v=-h9FlnuqqTI) |
+                <strong>Typing.</strong> Source motion (left) and adapted motion (right).
+                <iframe width="373" height="210" src="https://www.youtube.com/embed/-h9FlnuqqTI?si=fY09X_3wTOjJ7TsY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        </li>
+    </ul>
+</div>
 
 
 
-#### Different Character, Same Environment
-
-**Example**: **V-Tuber** **in** **a** **live** **room.** (The method has been applied into one [intelligent VTuber product](https://ai.kuaishou.com/technology/Solution/VirtualLive) by Kwai Technology.)
-
-| Sample | Input Data                                                  | Naive Results                                                | Optimized Results                                            |
-| ------ | ----------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 1      | [source motion](https://www.youtube.com/shorts/03UXyakbqEs) | [Retargeted(original)](https://www.youtube.com/watch?v=iClpQllxLVs) | [Retargeted(optimized)](https://www.youtube.com/watch?v=mliP0X2mKZA) |
-| 2      | [source motion](https://www.youtube.com/shorts/pvPmi9INIlE) | [Retargeted(original)](https://www.youtube.com/watch?v=Bo3yYgoOtD8) | [Retargeted(optimized)](https://www.youtube.com/watch?v=WQ4dLA_UNXw) |
+<div class="example-section">
+    <h2>Different Character, Same Environment</h2>
+    <p>The method has been applied into one <a href="https://ai.kuaishou.com/technology/Solution/VirtualLive" target="_blank">intelligent VTuber product</a> by Kwai Technology.</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Sample</th>
+                <th>Source Motion</th>
+                <th>Naive Results</th>
+                <th>Optimized Results</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sample 1</td>
+                <td>
+                    <iframe width="186" height="105" src="https://www.youtube.com/embed/03UXyakbqEs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </td>
+                <td>
+                    <iframe width="186" height="105" src="https://www.youtube.com/embed/iClpQllxLVs?si=BJ6xiwywncVJ5j7B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </td>
+                <td>
+                    <iframe width="186" height="105" src="https://www.youtube.com/embed/mliP0X2mKZA?si=e2bc_wXGHiqjBk_g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </td>
+            </tr>
+            <tr>
+                <td>Sample 2</td>
+                <td>
+                    <iframe width="186" height="105" src="https://www.youtube.com/embed/pvPmi9INIlE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </td>
+                <td>
+                    <iframe width="186" height="105" src="https://www.youtube.com/embed/Bo3yYgoOtD8?si=w7Qwjx3yGN8gXAFx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </td>
+                <td>
+                    <iframe width="186" height="105" src="https://www.youtube.com/embed/WQ4dLA_UNXw?si=d1-3E3N-l_hjo_Sw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
