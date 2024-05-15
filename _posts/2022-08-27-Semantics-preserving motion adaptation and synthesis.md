@@ -22,21 +22,56 @@ This study is focused on exploring the "semantics" of human motion with the aim 
 
 By studying the semantics of human motion, we can synthesize complex motions based on multiple simple motions. For instance, we could synthesize a human holding handrails while shrugging using three simple motions, such as standing, shrugging, and leaning. This is particularly useful because complex motions can be difficult to capture, whereas simple motions can be easily obtained online. Motion parameterization and synthesis has the potential to enable the spatial composition of high-quality human motion outcomes and significantly reduce the cost of motion capture. 
 
-| HSI examples. People Sitting on different sized chairs. | Examples of motion synthesis.(Standing Shrugging->Holding handrails Shrugging) |
-| ------------------------------------------------------- | ------------------------------------------------------------ |
-| ![HSI examples](img/ani-i1.png)                         | ![examples](img/ani-i2.png)                                  |
-
-
+<table>
+  <tr>
+    <!-- Image 1 -->
+    <td style="text-align: center;">
+      <img src="img/ani-i1.png" alt="HSI examples" style="width: 100%; max-width: 300px;">
+      <figcaption>HSI examples. People Sitting on different sized chairs.</figcaption>
+    </td>
+    <!-- Image 2 -->
+    <td style="text-align: center;">
+      <img src="img/ani-i2.png" alt="examples" style="width: 100%; max-width: 300px;">
+      <figcaption>Examples of motion synthesis. (Standing Shrugging->Holding handrails Shrugging)</figcaption>
+    </td>
+  </tr>
+</table>
 
 ## Related Works
 
-| **Category**                                 | Description                                                  | Figure                      | Limitations                                                  |
-| -------------------------------------------- | ------------------------------------------------------------ | --------------------------- | ------------------------------------------------------------ |
-| Constraint-based motion synthesis            | motion retargeting of dancing interactions based on positional constraint[2], avoid penetrations by using inequality constraints or a combination of collision detections and equality constraints [3, 4] | ![examples](img/ani-r1.png) | **Constraint** **based** **methods.** Unable to represent implicit spatial relationship. |
-| Character animation by spatial relationships | 1. encoding neighborhood formations and individual trajectories as Laplacian coordinates[6]. | ![examples](img/ani-r2.png) | **Skeleton-based** **methods.** Unsuitable for capturing skin-level spatial relationships. |
-|                                              | 2. Optimize the interaction mesh with pruning and normalization [7, 8] | ![examples](img/ani-r3.png) | Unable to handle motion retargeting between different sized characters. |
-
-
+<table>
+  <thead>
+    <tr>
+      <th>Category</th>
+      <th>Description</th>
+      <th>Figure</th>
+      <th>Limitations</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Constraint-based motion synthesis</strong></td>
+      <td>motion retargeting of dancing interactions based on positional constraint[2], avoid penetrations by using inequality constraints or a combination of collision detections and equality constraints [3, 4]</td>
+      <td><img src="img/ani-r1.png" alt="Constraint-based synthesis" style="width:100%; max-width: 200px;"></td>
+      <td><strong>Constraint based methods.</strong> Unable to represent implicit spatial relationship.</td>
+    </tr>
+    <tr>
+      <td><strong>Character animation by spatial relationships</strong></td>
+      <td>
+        1. encoding neighborhood formations and individual trajectories as Laplacian coordinates[6].<br>
+        2. Optimize the interaction mesh with pruning and normalization [7, 8]
+      </td>
+      <td>
+        <img src="img/ani-r2.png" alt="Spatial relationships" style="width:100%; max-width: 200px;"><br>
+        <img src="img/ani-r3.png" alt="Optimized interaction mesh" style="width:100%; max-width: 200px;">
+      </td>
+      <td>
+        <strong>Skeleton-based methods.</strong> Unsuitable for capturing skin-level spatial relationships.<br>
+        Unable to handle motion retargeting between different sized characters.
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ## Contributions
 
