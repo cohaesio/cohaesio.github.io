@@ -101,10 +101,10 @@ By studying the semantics of human motion, we can synthesize complex motions bas
                 <iframe width="373" height="210" src="https://www.youtube.com/embed/ChwtiJH_kxs?si=SHWOvM7wE5SL0smb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </li>
         <li>
-
+    
                 <strong>Typing.</strong> Source motion (left) and adapted motion (right).
                 <iframe width="373" height="210" src="https://www.youtube.com/embed/-h9FlnuqqTI?si=fY09X_3wTOjJ7TsY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+    
         </li>
     </ul>
 </div>
