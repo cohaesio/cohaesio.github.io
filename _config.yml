@@ -14,7 +14,8 @@ sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Do what I can with what I got"
 sidebar-avatar: /img/avatar_binggan.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
-
+plugins:
+  - jekyll-feed
 
 # SNS settings
 RSS: false

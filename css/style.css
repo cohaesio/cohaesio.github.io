@@ -1,0 +1,26 @@
+<style>
+.table-no-borders {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-no-borders td {
+    text-align: center;
+    border: none;
+}
+</style>
+
+<table class="table-no-borders">
+  <tr>
+    <!-- Image 1 -->
+    <td>
+      <img src="img/ani-i1.png" alt="HSI examples" style="width: 100%; max-width: 300px;">
+      <figcaption>HSI examples. People Sitting on different sized chairs.</figcaption>
+    </td>
+    <!-- Image 2 -->
+    <td>
+      <img src="img/ani-i2.png" alt="examples" style="width: 100%; max-width: 300px;">
+      <figcaption>Examples of motion synthesis. (Standing Shrugging->Holding handrails Shrugging)</figcaption>
+    </td>
+  </tr>
+</table>

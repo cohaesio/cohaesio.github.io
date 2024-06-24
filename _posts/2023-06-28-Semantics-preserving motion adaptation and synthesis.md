@@ -2,7 +2,7 @@
 layout:     post
 title:      Semantics-preserving motion adaptation and synthesis
 subtitle:   3D human scene interaction (HSI); motion parameterization and human motion synthesis
-date:       2022-08-27
+date:       2023-06-28
 author:     Mingrui Zhang
 header-img: img/ani-banner.png
 catalog: true
@@ -13,6 +13,11 @@ tags:
 
 ---
 
+<head>
+    <link rel="stylesheet" href="{{ 'css/style.css' | relative_url }}">
+</head>
+
+This work is [published](https://dl.acm.org/doi/10.1145/3581783.3612218) at ACM Multimedia 2023.
 
 # Human-Scene-Interaction
 
@@ -22,15 +27,15 @@ This study is focused on exploring the "semantics" of human motion with the aim 
 
 By studying the semantics of human motion, we can synthesize complex motions based on multiple simple motions. For instance, we could synthesize a human holding handrails while shrugging using three simple motions, such as standing, shrugging, and leaning. This is particularly useful because complex motions can be difficult to capture, whereas simple motions can be easily obtained online. Motion parameterization and synthesis has the potential to enable the spatial composition of high-quality human motion outcomes and significantly reduce the cost of motion capture.
 
-<table>
+<table style="border-collapse: collapse; width: 100%;">
   <tr>
     <!-- Image 1 -->
-    <td style="text-align: center;">
+    <td style="text-align: center; border: none;">
       <img src="img/ani-i1.png" alt="HSI examples" style="width: 100%; max-width: 300px;">
       <figcaption>HSI examples. People Sitting on different sized chairs.</figcaption>
     </td>
     <!-- Image 2 -->
-    <td style="text-align: center;">
+    <td style="text-align: center; border: none;">
       <img src="img/ani-i2.png" alt="examples" style="width: 100%; max-width: 300px;">
       <figcaption>Examples of motion synthesis. (Standing Shrugging->Holding handrails Shrugging)</figcaption>
     </td>
@@ -79,7 +84,7 @@ By studying the semantics of human motion, we can synthesize complex motions bas
 -  New representations of implicit spatial relationship
 -  Enable characters to adapt to new scenes without additional training data
 
-<img src="img/ani-o1.png" alt="examples" style="width: 20%;">
+<img src="img/ani-o1.png" alt="examples" style="width: 40%;">
 
 
 <img src="img/ani-m0.png" alt="examples" style="width: 80%;">
